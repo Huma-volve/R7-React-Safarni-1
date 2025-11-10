@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <>
-   <h1>Hello, This is Safarni Project</h1>
+   <h1>Hello, this is Safarni Project</h1>
    <Outlet />
     </>
   )
