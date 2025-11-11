@@ -1,4 +1,4 @@
-import Wrapper, { ctaButtonStyle } from "./LayoutWrapper";
+import Wrapper, { ctaButtonStyle } from "@/components/reusable/LayoutWrapper";
 import OTPPic from '@/assets/auth/otp.svg'
 import VerifyIcon from '@/assets/auth/verify-otp.svg'
 import { Button } from "@/components/ui/button";

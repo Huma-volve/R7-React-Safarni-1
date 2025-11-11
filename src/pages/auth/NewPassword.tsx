@@ -1,5 +1,5 @@
 import { Input } from "@/components/ui/input";
-import Wrapper, { ctaButtonStyle } from "./LayoutWrapper";
+import Wrapper, { ctaButtonStyle } from "@/components/reusable/LayoutWrapper";
 import NewPasswordPic from '@/assets/auth/new-password.svg'
 import LockerIcon from '@/assets/auth/locker-icon.svg'
 import { Button } from "@/components/ui/button";

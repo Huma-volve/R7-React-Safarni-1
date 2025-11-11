@@ -1,9 +1,8 @@
 import { Input } from "@/components/ui/input";
-import Wrapper from "./LayoutWrapper";
+import Wrapper, { ctaButtonStyle } from "@/components/reusable/LayoutWrapper";
 import ForgetPassPic from '@/assets/auth/forget-password.svg'
 import KeyIcon from '@/assets/auth/key-icon.svg'
 import { Button } from "@/components/ui/button";
-import { ctaButtonStyle } from "./LayoutWrapper";
 import { useFormNavigation } from "@/hooks/useFormNavigation";
 
 export default function ForgetPassword() {

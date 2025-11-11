@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import Wrapper, { ctaButtonStyle } from "./LayoutWrapper";
+import Wrapper, { ctaButtonStyle } from "@/components/reusable/LayoutWrapper";
 import OnboardingPicture from '@/assets/auth/onboarding-pic.svg'
 
 export default function Onboarding() {
