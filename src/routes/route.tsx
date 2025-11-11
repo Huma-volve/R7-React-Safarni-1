@@ -5,6 +5,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from '@/App.tsx'
 import Home from '@/pages/Home';
 // Lazily-loaded pages
+import { authRoutes } from './authRoutes';
 
 export const router = createBrowserRouter([
   {
@@ -14,7 +15,8 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <Home />
-      }
+      },
+      ...authRoutes
     ]
   }
 ]);
