@@ -6,6 +6,8 @@ import App from '@/App.tsx'
 
 // Lazily-loaded pages
 import { authRoutes } from './authRoutes';
+import { Home } from '@/pages/Home/Home';
+
 
 export const router = createBrowserRouter([
   {
@@ -13,7 +15,8 @@ export const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-      
+      path: '/',
+      element: <Home/>
       },...authRoutes
 
       
