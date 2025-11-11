@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import Wrapper from "./LayoutWrapper";
-import { ctaButtonStyle } from "./LayoutWrapper";
+import Wrapper, { ctaButtonStyle } from "@/components/reusable/LayoutWrapper";
 import CtaSection from "./CtaSection";
 import { useFormNavigation } from "@/hooks/useFormNavigation";
 import SignupPicture from '@/assets/auth/signup.svg'
