@@ -1,6 +1,5 @@
-import Wrapper from "./LayoutWrapper";
+import Wrapper, { ctaButtonStyle } from "@/components/reusable/LayoutWrapper";
 import DonePicture from '@/assets/auth/done-pic.svg'
-import { ctaButtonStyle } from "./LayoutWrapper";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import CheckIcon from '@/assets/auth/check-icon.svg'

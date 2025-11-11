@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Input } from "@/components/ui/input";
-import Wrapper, { ctaButtonStyle } from "./LayoutWrapper";
+import Wrapper, { ctaButtonStyle } from "@/components/reusable/LayoutWrapper";
 import LogInPicture from '@/assets/auth/login.svg'
 import { Button } from "@/components/ui/button";
 import CtaSection from "./CtaSection";
