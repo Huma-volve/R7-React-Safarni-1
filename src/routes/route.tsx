@@ -3,7 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 
 // pages
 import App from '@/App.tsx'
-import Home from '@/pages/Home';
+
 // Lazily-loaded pages
 
 export const router = createBrowserRouter([
@@ -12,8 +12,7 @@ export const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        index: true,
-        element: <Home />
+      
       }
     ]
   }
