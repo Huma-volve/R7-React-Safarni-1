@@ -5,6 +5,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from '@/App.tsx'
 
 // Lazily-loaded pages
+import { authRoutes } from './authRoutes';
 
 export const router = createBrowserRouter([
   {
@@ -13,7 +14,9 @@ export const router = createBrowserRouter([
     children: [
       {
       
-      }
+      },...authRoutes
+
+      
     ]
   }
 ]);
