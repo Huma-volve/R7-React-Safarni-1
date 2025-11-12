@@ -18,7 +18,7 @@ export default function HeroSection() {
               "Explore stunning destinations around the globe. Find travel inspiration, top attractions, 
               and plan your next adventure—all from one platform."
             </p>
-            <img src="../../../public/home/Clip.png" alt=""className="w-15 h-15 absolute left-95 top-30 hidden xl:block"/>
+            <img src="/Home/Clip.png" alt=""className="w-15 h-15 absolute left-95 top-30 hidden xl:block"/>
           </div>
        
         </div>
@@ -26,26 +26,26 @@ export default function HeroSection() {
 
         <div className="flex-1 grid grid-cols-3 grid-rows-2 gap-5 w-auto">
         
-        <div><img src="../../../public/home/HomeImg1.jpg" alt="" className="rounded-tl-3xl"/></div>
+        <div><img src="/Home/HomeImg1.jpg" alt="" className="rounded-tl-3xl"/></div>
 
             <div
             className="col-start-1 row-start-2">
-            <img src="../../../public/home/HomeImg2.jpg" alt="" className="rounded-3xl h-full" />
+            <img src="/Home/HomeImg2.jpg" alt="" className="rounded-3xl h-full" />
           </div>
 
           <div
             className="col-start-2 row-start-1 xl:relative xl:top-35">
-            <img src="../../../public/home/HomeImg3.jpg" alt="" className="rounded-tr-3xl rounded-br-3xl rounded-bl-3xl " />
+            <img src="/Home/HomeImg3.jpg" alt="" className="rounded-tr-3xl rounded-br-3xl rounded-bl-3xl " />
           </div>
 
           <div
             className="col-start-2 row-start-2  flex flex-col justify-end">
-            <img src="../../../public/home/HomeImg4.jpg" className="rounded-3xl xl:h-[50%] xl:w-full" alt="" /></div>
+            <img src="/Home/HomeImg4.jpg" className="rounded-3xl xl:h-[50%] xl:w-full" alt="" /></div>
 
 
             <div
             className="col-start-3 row-start-2 xl:w-[70%] ">
-            <img src="../../../public/home/HomeImg5.jpg" alt="" className="rounded-tr-3xl rounded-br-3xl h-full" /></div>
+            <img src="/Home/HomeImg5.jpg" alt="" className="rounded-tr-3xl rounded-br-3xl h-full" /></div>
         
         </div>
         </div>

@@ -2,7 +2,7 @@
 
 export const Category = () => {
 
-  const category=[{title:"Flight", image:"../../../public/home/Flight.jpg", url:"#"}, {title:"Cars", image:"../../../public/home/Car.jpg", url:"#"}, {title:"Tours", image: "../../../public/home/hotel.jpg", url:"#"}, {title:"Hotel", image:"../../../public/home/Tour.jpg", url:"#"}]
+  const category=[{title:"Flight", image:"/Home/Flight.jpg", url:"#"}, {title:"Cars", image:"/Home/Car.jpg", url:"#"}, {title:"Tours", image: "/Home/hotel.jpg", url:"#"}, {title:"Hotel", image:"/Home/Tour.jpg", url:"#"}]
 
   return (
     

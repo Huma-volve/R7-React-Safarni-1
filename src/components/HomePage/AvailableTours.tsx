@@ -5,25 +5,25 @@ export const AvailableToursSection = () => {
   const recommendations = [
     {
       title: "The Pyramids",
-      image: "../../../public/home/HomeImg1.jpg",
+      image: "/Home/HomeImg1.jpg",
       rating: 4.8,
       location: "Greece",
     },
     {
       title: "Bali Beach Resort",
-      image: "../../../public/home/HomeImg2.jpg",
+      image: "/Home/HomeImg2.jpg",
       rating: 4.6,
       location: "Indonesia",
     },
     {
       title: "Swiss Alps Escape",
-      image:"../../../public/home/HomeImg3.jpg",
+      image:"/Home/HomeImg3.jpg",
       rating: 4.9,
       location: "Switzerland",
     },
     {
       title: "Kyoto Cultural Tour",
-      image: "../../../public/home/HomeImg4.jpg",
+      image: "/Home/HomeImg4.jpg",
       rating: 4.7,
       location: "Japan",
     },
