@@ -17,20 +17,20 @@ export default function Navbar() {
         </div>
 
       
-        <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-700 dark:text-gray-200">
+        <div className="hidden md:flex space-x-15 text-sm font-medium text-gray-700 dark:text-gray-200">
            
           <a href="#" className={`flex items-center space-x-1 ${location.pathname === "/" ? "text-[#1E429F]" : "text-gray-700 dark:text-gray-200 hover:text-[#1E429F]"
           }`}>
-             <span>Home</span>
+             <span className="text-lg">Home</span>
           </a>
           <a href="#" className="flex items-center space-x-1 hover:text-[#1E429F]">
-            <span>Favorite</span>
+            <span className="text-lg">Favorite</span>
           </a>
           <a href="#" className="flex items-center space-x-1 hover:text-[#1E429F]">
-            <span>Compare</span>
+            <span className="text-lg">Compare</span>
           </a>
           <a href="#" className="flex items-center space-x-1 hover:text-[#1E429F]">
-            <span>Maps</span>
+            <span className="text-lg">Maps</span>
           </a>
         </div>
 
