@@ -1,9 +1,4 @@
-import clip from "../../../public/home/Clip.png"
-import img1 from "../../../public/home/HomeImg1.jpg"
-import img2 from "../../../public/home/HomeImg2.jpg"
-import img3 from "../../../public/home/HomeImg3.jpg"
-import img4 from "../../../public/home/HomeImg4.jpg"
-import img5 from "../../../public/home/HomeImg5.jpg"
+
 
 export default function HeroSection() {
   return (
@@ -23,7 +18,7 @@ export default function HeroSection() {
               "Explore stunning destinations around the globe. Find travel inspiration, top attractions, 
               and plan your next adventure—all from one platform."
             </p>
-            <img src={clip} alt=""className="w-15 h-15 absolute left-95 top-30 hidden xl:block"/>
+            <img src="../../../public/home/Clip.png" alt=""className="w-15 h-15 absolute left-95 top-30 hidden xl:block"/>
           </div>
        
         </div>
@@ -31,26 +26,26 @@ export default function HeroSection() {
 
         <div className="flex-1 grid grid-cols-3 grid-rows-2 gap-5 w-auto">
         
-        <div><img src={img1} alt="" className="rounded-tl-3xl"/></div>
+        <div><img src="../../../public/home/HomeImg1.jpg" alt="" className="rounded-tl-3xl"/></div>
 
             <div
             className="col-start-1 row-start-2">
-            <img src={img2} alt="" className="rounded-3xl h-full" />
+            <img src="../../../public/home/HomeImg2.jpg" alt="" className="rounded-3xl h-full" />
           </div>
 
           <div
             className="col-start-2 row-start-1 xl:relative xl:top-35">
-            <img src={img3} alt="" className="rounded-tr-3xl rounded-br-3xl rounded-bl-3xl " />
+            <img src="../../../public/home/HomeImg3.jpg" alt="" className="rounded-tr-3xl rounded-br-3xl rounded-bl-3xl " />
           </div>
 
           <div
             className="col-start-2 row-start-2  flex flex-col justify-end">
-            <img src={img4} className="rounded-3xl xl:h-[50%] xl:w-full" alt="" /></div>
+            <img src="../../../public/home/HomeImg4.jpg" className="rounded-3xl xl:h-[50%] xl:w-full" alt="" /></div>
 
 
             <div
             className="col-start-3 row-start-2 xl:w-[70%] ">
-            <img src={img5} alt="" className="rounded-tr-3xl rounded-br-3xl h-full" /></div>
+            <img src="../../../public/home/HomeImg5.jpg" alt="" className="rounded-tr-3xl rounded-br-3xl h-full" /></div>
         
         </div>
         </div>

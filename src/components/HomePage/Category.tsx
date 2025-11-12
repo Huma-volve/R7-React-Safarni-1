@@ -1,11 +1,8 @@
-import flight from "../../../public/home/Flight.jpg"
-import car from "../../../public/home/Car.jpg"
-import hotel from "../../../public/home/hotel.jpg"
-import tour from "../../../public/home/Tour.jpg"
+
 
 export const Category = () => {
 
-  const category=[{title:"Flight", image:flight, url:"#"}, {title:"Cars", image:car, url:"#"}, {title:"Tours", image:hotel, url:"#"}, {title:"Hotel", image:tour, url:"#"}]
+  const category=[{title:"Flight", image:"../../../public/home/Flight.jpg", url:"#"}, {title:"Cars", image:"../../../public/home/Car.jpg", url:"#"}, {title:"Tours", image: "../../../public/home/hotel.jpg", url:"#"}, {title:"Hotel", image:"../../../public/home/Tour.jpg", url:"#"}]
 
   return (
     

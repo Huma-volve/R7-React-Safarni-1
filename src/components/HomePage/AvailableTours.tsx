@@ -1,33 +1,29 @@
 import { Star, MapPin } from "lucide-react";
 
-import img1 from "../../../public/home/HomeImg1.jpg";
-import img2 from "../../../public/home/HomeImg2.jpg";
-import img3 from "../../../public/home/HomeImg3.jpg";
-import img4 from "../../../public/home/HomeImg4.jpg";
 
 export const AvailableToursSection = () => {
   const recommendations = [
     {
       title: "The Pyramids",
-      image: img1,
+      image: "../../../public/home/HomeImg1.jpg",
       rating: 4.8,
       location: "Greece",
     },
     {
       title: "Bali Beach Resort",
-      image: img2,
+      image: "../../../public/home/HomeImg2.jpg",
       rating: 4.6,
       location: "Indonesia",
     },
     {
       title: "Swiss Alps Escape",
-      image: img3,
+      image:"../../../public/home/HomeImg3.jpg",
       rating: 4.9,
       location: "Switzerland",
     },
     {
       title: "Kyoto Cultural Tour",
-      image: img4,
+      image: "../../../public/home/HomeImg4.jpg",
       rating: 4.7,
       location: "Japan",
     },
