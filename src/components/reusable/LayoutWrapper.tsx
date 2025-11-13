@@ -35,18 +35,18 @@ export default function Wrapper({ imgSrc, children, headingSection}: WrapperProp
                 </div>
             )}
 
-            <img src="/logo.svg" className="w-18 ml-auto"/>
+            <img src="/logo.svg" alt="Logo" className="w-18 ml-auto"/>
         </section>
 
         <section className="grid grid-cols-1 md:grid-cols-2 items-center text-center gap-10 md:gap-">
             {/* This is the image that's on the left */}
-            <img src={imgSrc} alt="Auth Image" />
+            <img  src={imgSrc} alt="Auth Image" />
             
             {/* This is the section that's on the right */}
             <div>
                 <div className="flex flex-col gap-4">
                     {headingSection.icon && (
-                        <img src={headingSection.icon} className="h-6" />
+                        <img src={headingSection.icon} alt="head-section-imag" className="h-6" />
                     )}
                     <h1 className="text-3xl font-medium">{headingSection.headingText}</h1>
                     <p  className="text-neutral-500 text-xl">{headingSection.subHeadingText}</p>

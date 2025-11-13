@@ -88,33 +88,33 @@ export default function CompareDetails({ selected, setSelected }: CompareDetails
               <sub>/ person</sub>
             </span>
           </p>
-            <p className="mb-1 flex gap-2">
-            <FiCheck className="text-xl w-20 text-[40px]" />
+            <p className="mb-1 flex items-center gap-2">
+            <FiCheck className="text-xl w-10 text-[40px]" />
             Location: {tour.location}
           </p>
 
-          <p className="mb-1 flex gap-2">
-            <FiCheck className="text-xl w-20 text-[40px]" />
+          <p className="mb-1 flex items-center gap-2">
+            <FiCheck className="text-xl w-10 text-[40px]" />
             Duration: {tour.duration}
           </p>
 
-          <p className="mb-1 flex gap-4">
-            <FiCheck className="text-xl w-20 text-[40px]" />
-            Highlights: {tour.highlights}
+          <p className="mb-1 flex items-center gap-4">
+            <FiCheck className="text-xl  w-15 text-[70px]" />
+         <span className="">Highlights: {tour.highlights}</span>
           </p>
 
-          <p className="mb-1 flex gap-2">
-            <FiCheck className="text-xl w-20 text-[40px]" />
+          <p className="mb-1 flex items-center gap-2">
+            <FiCheck className="text-xl w-10 text-[40px]" />
             Availability: {tour.availability}
           </p>
 
-          <p className="mb-1 flex gap-2">
-            <FiCheck className="text-xl w-20 text-[40px]" />
+          <p className="mb-1 flex items-center gap-2">
+            <FiCheck className="text-xl w-10 text-[40px]" />
             {tour.guide}
           </p>
 
-          <p className="mb-1 flex gap-2">
-            <FiCheck className="text-xl w-20 text-[40px]" />
+          <p className="mb-1 flex items-center gap-2">
+            <FiCheck className="text-xl w-10 text-[40px]" />
             <span>{tour.transportation}</span>
           </p>
         </div>
