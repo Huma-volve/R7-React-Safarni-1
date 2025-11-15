@@ -70,7 +70,7 @@ export default function CompareDetails({ selected, setSelected }: CompareDetails
   ];
 
   return (
-    <div className="w-full  bg-white grid grid-rows-2 grid-cols-3 gap-4 px-20  pb-30">
+    <div className="w-full  bg-white grid grid-rows-2 grid-cols-3 gap-4 px-20  pb-30 ">
       {tourData.map((tour, index) => (
         <div
           key={index}
@@ -122,3 +122,4 @@ export default function CompareDetails({ selected, setSelected }: CompareDetails
     </div>
   );
 }
+

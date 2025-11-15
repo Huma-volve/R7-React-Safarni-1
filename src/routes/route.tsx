@@ -20,10 +20,25 @@ export const router = createBrowserRouter([
     children: [
       {
       path: '/',
-      element: <Home/>
-      },...authRoutes
-
-      
-    ]
+      element: <Home/>,
+    },
+    {
+      path: 'car-booking',
+      element: <CarBooking />
+    },
+    {
+      path:"compare",
+      element:<Compare />
+    },
+    {
+      path:"single-car",
+      element:<SingleCar />
+    },
+    {
+      path: "map",
+      element: <MyMap />
+    },
+    ...authRoutes
+  ]
   }
 ]);
