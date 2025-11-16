@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
   
         <div className="flex items-center space-x-2">
-          <img src={logo} alt="" className="w-14 sm:w-17" />
+          <img src={logo} alt="" className="w-14 h-17 sm:w-17" />
         </div>
 
       
@@ -26,7 +26,7 @@ export default function Navbar() {
           <a href="#" className="flex items-center space-x-1 hover:text-[#1E429F]">
             <span className="text-lg">Favorite</span>
           </a>
-          <a href="#" className="flex items-center space-x-1 hover:text-[#1E429F]">
+          <a href="/compare" className="flex items-center space-x-1 hover:text-[#1E429F]">
             <span className="text-lg">Compare</span>
           </a>
           <a href="#" className="flex items-center space-x-1 hover:text-[#1E429F]">
@@ -60,8 +60,8 @@ export default function Navbar() {
 )}
 
 
-        
-          <button className="text-gray-600 hover:text-blue-600 dark:text-gray-300">
+
+          <button title="User Profile" className="text-gray-600 hover:text-blue-600 dark:text-gray-300">
             <UserCircle size={26} />
           </button>
 
@@ -69,7 +69,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <Sheet>
               <SheetTrigger asChild>
-                <button className="text-gray-600 hover:text-blue-600 dark:text-gray-300">
+                <button title="Menu" className="text-gray-600 hover:text-blue-600 dark:text-gray-300">
                   <Menu size={24} />
                 </button>
               </SheetTrigger>

@@ -1,0 +1,13 @@
+.leaflet-routing-container {
+  display: none !important;
+}
+/* Hide Leaflet Routing Machine panel */
+.leaflet-routing-container {
+  display: none !important;
+}
+.leaflet-routing-container .leaflet-routing-error,
+.leaflet-routing-container .leaflet-routing-alternatives-container,
+.leaflet-routing-container .leaflet-routing-geocoders,
+.leaflet-routing-container .leaflet-control {
+    display: none !important;
+}

@@ -36,7 +36,7 @@ export const router = createBrowserRouter([
     },
     {
       path: "map",
-      element: <MyMap />
+      element: <MyMap  />
     },
     ...authRoutes
   ]
