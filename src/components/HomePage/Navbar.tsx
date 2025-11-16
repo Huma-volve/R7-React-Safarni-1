@@ -9,7 +9,7 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="w-full border-b border-gray-200 bg-white dark:bg-gray-900">
+    <nav className="w-full pb-2 border-b border-gray-200 bg-white dark:bg-gray-900">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
   
         <div className="flex items-center space-x-2">
