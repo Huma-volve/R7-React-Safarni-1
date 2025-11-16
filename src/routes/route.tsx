@@ -9,9 +9,10 @@ import { authRoutes } from './authRoutes';
 import { Home } from '@/pages/Home/Home';
 
 import CarBooking from '@/pages/CarBooking/CarBooking';
-import Compare from '@/pages/Compare/Compare';
 import SingleCar from '@/pages/CarBooking/SingleCar';
 import MyMap from '@/pages/Map/Map';
+import Payment from '@/pages/Payment/Payment';
+import Compare from '@/pages/Compare/Compare';
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
     {
       path: "map",
       element: <MyMap  />
+    },
+    {
+      path: "payment",
+      element: <Payment />
     },
     ...authRoutes
   ]

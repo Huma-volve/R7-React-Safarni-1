@@ -1,3 +1,4 @@
+
 import Searchbar from "../Compare/Searchbar";
 import Brands from "./Brands";
 
