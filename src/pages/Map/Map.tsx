@@ -122,7 +122,7 @@ export default function MyMap() {
         id="map"
         className="w-full h-screen "
       ></div>
-      <div className ="z-1000 fixed top-1 mt-5 p-2 pb-[.5px] mb-1 bg-white w-[80%] flex justify-center ms-[10%] items-center overflow-hidden  rounded-3xl ">
+      <div className ="z-1000 fixed top-1 mt-5 p-2  pb-0 mb-1 bg-white w-[80%] flex justify-center ms-[10%] items-center overflow-hidden  rounded-3xl ">
         <Navbar />
       </div>
       
